@@ -1,0 +1,6 @@
+include 'mvc'
+include 'main'
+include 'mvc:untitled'
+findProject(':mvc:untitled')?.name = 'untitled'
+include 'main'
+
